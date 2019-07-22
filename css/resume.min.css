@@ -1,0 +1,114 @@
+body{
+    padding-top:0;
+    padding-left:17rem
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family:'Saira Extra Condensed';
+    font-weight:700;
+    text-transform:uppercase;
+    color:#343a40}
+    
+    h1{
+        font-size:6rem;line-height:5.5rem
+    }
+    
+    h2{
+        font-size:3.5rem
+    }
+    
+    h3{
+        font-size:2rem
+    }
+    
+    p.lead{
+        font-size:1.15rem;font-weight:400
+    }
+
+    .subheading{
+        text-transform:uppercase;
+        font-weight:500;
+        font-family:'Saira Extra Condensed';
+        font-size:1.5rem
+    }
+    
+    .social-icons a{
+        display:inline-block;
+        height:3.5rem;
+        width:3.5rem;
+        background-color:whitesmoke;
+        color:palevioletred;
+        border-radius:100%;
+        text-align:center;
+        font-size:1.5rem;
+        line-height:3.5rem;
+        margin-right:1rem
+    }
+    
+    .social-icons a:last-child{
+        margin-right:0
+    }
+        
+    .social-icons a:hover{
+        background-color:pink;
+    }
+    
+    .dev-icons{
+        font-size:3rem
+    }
+    
+    .dev-icons .list-inline-item i:hover{
+        color: palevioletred;
+    }
+    
+    #sideNav .navbar-nav .nav-item .nav-link{
+        font-weight:800;
+        letter-spacing:.05rem;
+        text-transform:uppercase;
+    }
+    
+    #sideNav .navbar-toggler:focus{
+        outline-color: palevioletred;
+    }
+    
+    #sideNav{
+        text-align:center;
+        position:fixed;
+        flex-direction:column;
+        width:17rem;
+        height:100vh;
+    }
+    
+   
+    
+    #sideNav .navbar-brand .img-profile{
+        max-width:10rem;
+        max-height:10rem;
+        border:.5rem solid rgba(255,255,255,.2)
+    }
+    
+    
+    
+    #sideNav .navbar-collapse .navbar-nav{
+        -webkit-box-orient:vertical;
+        -webkit-box-direction:normal;
+        -ms-flex-direction:column;
+        flex-direction:column;
+        width:100%
+    }
+    
+    .bg-primary{
+        background-color:#bd5d38;
+    }
+    
+    .text-primary{
+        color:#bd5d38;
+    }
+    
+    a{
+        color:#bd5d38
+    }
+    
+    a:active,a:focus,a:hover{
+        color:#824027
+    }
