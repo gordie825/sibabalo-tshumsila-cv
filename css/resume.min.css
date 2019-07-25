@@ -2,7 +2,7 @@ body{
     padding-top:0;
     padding-left:17rem
 }
-
+/* heading style for all */
 h1,h2,h3,h4,h5,h6{
     font-family:'Saira Extra Condensed';
     font-weight:700;
@@ -31,7 +31,7 @@ h1,h2,h3,h4,h5,h6{
         font-family:'Saira Extra Condensed';
         font-size:1.5rem
     }
-    
+    /* socila icons */
     .social-icons a{
         display:inline-block;
         height:3.5rem;
